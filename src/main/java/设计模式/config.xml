@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans>
+    <bean id="Potato" class="设计模式.PotatoImpl">
+
+    </bean>
+</beans>

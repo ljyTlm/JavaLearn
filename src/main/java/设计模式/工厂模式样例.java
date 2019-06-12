@@ -39,7 +39,7 @@ class PotatoImpl implements Potato{
 }
 class BeanFactory{
     public static Object getBean(String name){
-        String claImplName = getclaIml(name);
+        String claImplName = getClaIml(name);
         Object o = null;
         try {
             Class cla = Class.forName(claImplName);
@@ -54,7 +54,7 @@ class BeanFactory{
         return o;
     }
 
-    private static String getclaIml(String name) {
+    private static String getClaIml(String name) {
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         try {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="手撸spring的依赖注入和aop事务演示">
-      <change afterPath="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" afterDir="false" />
+    <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -20,12 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/多线程/多线程样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#643#812#0" expanded="true" />
                 <element signature="e#811#812#0" expanded="true" />
                 <element signature="e#845#991#0" expanded="true" />
@@ -38,23 +39,21 @@
                 <element signature="e#2020#2021#0" expanded="true" />
                 <element signature="e#2437#2438#0" expanded="true" />
                 <element signature="e#2509#2510#0" expanded="true" />
-                <element signature="e#2563#2720#0" expanded="true" />
-                <element signature="e#2719#2720#0" expanded="true" />
-                <element signature="e#2738#2897#0" expanded="true" />
-                <element signature="e#2896#2897#0" expanded="true" />
-                <element signature="e#3106#3263#0" expanded="true" />
-                <element signature="e#3262#3263#0" expanded="true" />
-                <element signature="e#3281#3440#0" expanded="true" />
+                <element signature="e#2567#2724#0" expanded="true" />
+                <element signature="e#2723#2724#0" expanded="true" />
+                <element signature="e#2742#2901#0" expanded="true" />
+                <element signature="e#2900#2901#0" expanded="true" />
+                <element signature="e#3017#3173#0" expanded="true" />
+                <element signature="e#3172#3173#0" expanded="true" />
+                <element signature="e#3191#3347#0" expanded="true" />
+                <element signature="e#3346#3347#0" expanded="true" />
+                <element signature="e#3901#3909#0" expanded="true" />
+                <element signature="e#4074#4090#0" expanded="true" />
+                <element signature="e#3904#4243#0" expanded="true" />
+                <element signature="e#4242#4243#0" expanded="true" />
+                <element signature="e#4261#4600#0" expanded="true" />
+                <element signature="e#4599#4600#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/java/设计模式/原型模式样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" />
       </list>
     </option>
   </component>
@@ -165,31 +164,6 @@
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="初始化和清理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="初始化和清理" type="462c0819:PsiDirectoryNode" />
-              <item name="初始化样例.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="多线程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -230,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.初始化样例">
+  <component name="RunManager" selected="Application.多线程样例">
     <configuration name="策略模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.策略模式样例" />
       <module name="Java深度研究" />
@@ -412,8 +386,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.初始化样例" />
         <item itemvalue="Application.多线程样例" />
+        <item itemvalue="Application.初始化样例" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.策略模式样例" />
@@ -449,7 +423,7 @@
       <workItem from="1560308997607" duration="16807000" />
       <workItem from="1560393979019" duration="16387000" />
       <workItem from="1560439598716" duration="4130000" />
-      <workItem from="1560468378359" duration="10373000" />
+      <workItem from="1560468378359" duration="14194000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -535,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560430197433</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="整理了一半多线程&#10;在初始化章节添加了一个知识点">
+      <created>1560494053813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560494053813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96160000" />
+    <option name="totallyTimeSpent" value="99981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,7 +634,8 @@
     <MESSAGE value="策略模式整理完毕" />
     <MESSAGE value="原型模式整理完毕&#10;设计模式整理到此结束" />
     <MESSAGE value="手撸spring的依赖注入和aop事务演示" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撸spring的依赖注入和aop事务演示" />
+    <MESSAGE value="整理了一半多线程&#10;在初始化章节添加了一个知识点" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理了一半多线程&#10;在初始化章节添加了一个知识点" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
@@ -934,11 +916,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/多线程/多线程样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#643#812#0" expanded="true" />
             <element signature="e#811#812#0" expanded="true" />
             <element signature="e#845#991#0" expanded="true" />
@@ -951,21 +941,21 @@
             <element signature="e#2020#2021#0" expanded="true" />
             <element signature="e#2437#2438#0" expanded="true" />
             <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2563#2720#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#2738#2897#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#3106#3263#0" expanded="true" />
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3281#3440#0" expanded="true" />
+            <element signature="e#2567#2724#0" expanded="true" />
+            <element signature="e#2723#2724#0" expanded="true" />
+            <element signature="e#2742#2901#0" expanded="true" />
+            <element signature="e#2900#2901#0" expanded="true" />
+            <element signature="e#3017#3173#0" expanded="true" />
+            <element signature="e#3172#3173#0" expanded="true" />
+            <element signature="e#3191#3347#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
+            <element signature="e#3901#3909#0" expanded="true" />
+            <element signature="e#4074#4090#0" expanded="true" />
+            <element signature="e#3904#4243#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+            <element signature="e#4261#4600#0" expanded="true" />
+            <element signature="e#4599#4600#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

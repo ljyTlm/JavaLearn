@@ -1,5 +1,10 @@
 package 多线程;
 
+import java.sql.Struct;
+import java.util.Collections;
+import java.util.Hashtable;
+import java.util.Vector;
+
 public class 多线程样例 {
     public static void main(String[] args) throws InterruptedException {
 //        并行：多个cpu同时执行多个任务
@@ -114,8 +119,58 @@ public class 多线程样例 {
 //      一个坑点 同步对象都传new Object 是不好使的 因为new出来的东西不是一个东西
 //      是锁不住的！！！！！！ 想锁住 建议直接传类.class
 //      9.线程安全问题
-
-
+        new Ticket().start();
+        new Ticket().start();
+        new Ticket().start();
+        new Ticket().start();
+//      线程运行中代码对同一个变量修改操作时 一旦发生轮替 那么变量就不一定是最初的变量
+//      所以在编写代码时 多线程对同一个变量操作时 一定要加上同一个同步锁 才能保证数据安全
+//      另外注意 多次启动一个线程是非法的！！！
+//      10.线程运行中的死锁
+        DeadLock.run();
+//      建议不要同步锁嵌套着写！！！
+//      11.java中常见的线程安全类
+        Vector<String> vector = new Vector<String>();
+        StringBuffer buffer = new StringBuffer();
+        Hashtable<String, String> hashtable = new Hashtable<String, String>();
+//        Collections.synchronizedXXXXX;
+    }
+}
+class DeadLock{
+    public static String s1 = "11";
+    public static String s2 = "12";
+    public static void run(){
+        new Thread(){
+            @Override
+            public void run() {
+                synchronized (s1){
+                    System.out.println(getName()+"拿到s1, 等待s2");
+                    synchronized (s2){
+                        System.out.println(getName()+"拿到s2, 释放s1s2");
+                    }
+                }
+            }
+        }.start();
+        new Thread(){
+            @Override
+            public void run() {
+                synchronized (s2){
+                    System.out.println(getName()+"拿到s2, 等待s1");
+                    synchronized (s1){
+                        System.out.println(getName()+"拿到s1, 释放s2s1");
+                    }
+                }
+            }
+        }.start();
+    }
+}
+class Ticket extends Thread{
+    public static int number = 100;
+    @Override
+    public void run() {
+        synchronized (Ticket.class){
+            System.out.println(getName()+"---正在卖 第 "+(number--)+ "号票");
+        }
     }
 }
 class Test{

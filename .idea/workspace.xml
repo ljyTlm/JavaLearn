@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/字符串/String类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
@@ -19,17 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/字符串/String类.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,6 +80,8 @@
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程组.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程池.java" />
         <option value="$PROJECT_DIR$/src/main/java/字符串/String类.java" />
+        <option value="$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java" />
       </list>
     </option>
   </component>
@@ -142,6 +135,14 @@
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="常用算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -180,13 +181,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.String类">
-    <configuration name="多线程样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.多线程样例" />
+  <component name="RunManager" selected="Application.冒泡排序样例">
+    <configuration name="冒泡排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用算法.冒泡排序样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="多线程.*" />
+          <option name="PATTERN" value="常用算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,6 +197,19 @@
     </configuration>
     <configuration name="String类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="字符串.String类" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuffer类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串.StringBuffer类" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
@@ -378,10 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.冒泡排序样例" />
+        <item itemvalue="Application.StringBuffer类" />
         <item itemvalue="Application.String类" />
         <item itemvalue="Application.多线程_Timer样例" />
         <item itemvalue="Application.多线程_通信样例" />
-        <item itemvalue="Application.多线程样例" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +431,7 @@
       <workItem from="1560439598716" duration="4130000" />
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
-      <workItem from="1560605873439" duration="8842000" />
+      <workItem from="1560605873439" duration="12800000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -537,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560529318609</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="整理了字符串中String类&#10;顺便写了一下kmp算法 还行没忘 哈哈">
+      <created>1560617776808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560617776808</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126966000" />
+    <option name="totallyTimeSpent" value="130924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +577,7 @@
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19300699" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19300699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -564,7 +586,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.37801608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.37801608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,7 +681,8 @@
     <MESSAGE value="多线程之Timer&#10;多线程之多个线程通信 &#10;整理完毕" />
     <MESSAGE value="多线程之线程组 整理完毕" />
     <MESSAGE value="简述了java的线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="简述了java的线程池" />
+    <MESSAGE value="整理了字符串中String类&#10;顺便写了一下kmp算法 还行没忘 哈哈" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理了字符串中String类&#10;顺便写了一下kmp算法 还行没忘 哈哈" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
@@ -905,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/继承和多态/样例演示.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/代理模式样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1016,10 +1032,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/继承和多态/样例演示.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/字符串/String类.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="756">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

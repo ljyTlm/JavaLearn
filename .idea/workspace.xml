@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/归并排序样例.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -21,14 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/归并排序样例.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="279">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -98,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/常用算法/KMP算法样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/归并排序样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java" />
       </list>
     </option>
   </component>
@@ -197,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.归并排序样例">
+  <component name="RunManager" selected="Application.选择排序样例">
     <configuration name="冒泡排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用算法.冒泡排序样例" />
       <module name="Java深度研究" />
@@ -237,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMP算法样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常用算法.KMP算法样例" />
+    <configuration name="选择排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用算法.选择排序样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
@@ -250,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuffer类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="字符串.StringBuffer类" />
+    <configuration name="KMP算法样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用算法.KMP算法样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="字符串.*" />
+          <option name="PATTERN" value="常用算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,11 +391,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.选择排序样例" />
         <item itemvalue="Application.归并排序样例" />
         <item itemvalue="Application.快速排序样例" />
         <item itemvalue="Application.KMP算法样例" />
         <item itemvalue="Application.冒泡排序样例" />
-        <item itemvalue="Application.StringBuffer类" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +431,7 @@
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
       <workItem from="1560605873439" duration="13443000" />
-      <workItem from="1560653809922" duration="1423000" />
+      <workItem from="1560653809922" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -591,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560654785018</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="新增归并排序算法">
+      <created>1560655280976</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560655280976</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132990000" />
+    <option name="totallyTimeSpent" value="133371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +722,8 @@
     <MESSAGE value="添加常用算法模块&#10;新增冒泡排序算法" />
     <MESSAGE value="新增KMP算法" />
     <MESSAGE value="新增快速排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增快速排序算法" />
+    <MESSAGE value="新增归并排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增归并排序算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
@@ -1112,10 +1116,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/归并排序样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="135">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -1123,14 +1138,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/归并排序样例.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>

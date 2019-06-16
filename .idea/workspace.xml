@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/KMP算法样例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
@@ -21,10 +21,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/KMP算法样例.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/KMP算法样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java" />
       </list>
     </option>
   </component>
@@ -116,8 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,9 +196,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMP算法样例">
+  <component name="RunManager" selected="Application.快速排序样例">
     <configuration name="冒泡排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用算法.冒泡排序样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="常用算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="快速排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用算法.快速排序样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
@@ -237,6 +255,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="代理模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.代理模式样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,45 +379,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="代理模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.代理模式样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="多线程_Timer样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.多线程_Timer样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="多线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="多线程_线程组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.多线程_线程组" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="多线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="多线程_线程池" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="多线程.多线程_线程池" />
       <module name="Java深度研究" />
@@ -402,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.快速排序样例" />
         <item itemvalue="Application.KMP算法样例" />
         <item itemvalue="Application.冒泡排序样例" />
         <item itemvalue="Application.StringBuffer类" />
         <item itemvalue="Application.String类" />
-        <item itemvalue="Application.多线程_Timer样例" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +433,8 @@
       <workItem from="1560439598716" duration="4130000" />
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
-      <workItem from="1560605873439" duration="13374000" />
+      <workItem from="1560605873439" duration="13443000" />
+      <workItem from="1560653809922" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -583,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560622105350</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="新增KMP算法">
+      <created>1560622457758</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560622457758</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131498000" />
+    <option name="totallyTimeSpent" value="132376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,7 +602,7 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19300699" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1958042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,7 +611,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.37801608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" weight="0.37801608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -709,7 +709,8 @@
     <MESSAGE value="整理了字符串中String类&#10;顺便写了一下kmp算法 还行没忘 哈哈" />
     <MESSAGE value="整理了字符串中StringBuffer和StringBuilderlei" />
     <MESSAGE value="添加常用算法模块&#10;新增冒泡排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加常用算法模块&#10;新增冒泡排序算法" />
+    <MESSAGE value="新增KMP算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增KMP算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
@@ -1073,20 +1074,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
@@ -1103,8 +1091,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/KMP算法样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/冒泡排序样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/快速排序样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

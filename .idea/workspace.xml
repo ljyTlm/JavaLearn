@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用工具类/Calendar类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/异常/异常样例.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java深度研究.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java深度研究.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -21,10 +24,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Calendar类.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/异常/异常样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+            <state relative-caret-position="270">
+              <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/java/常用工具类/Random类.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用工具类/System类.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用工具类/Calendar类.java" />
+        <option value="$PROJECT_DIR$/src/main/java/异常/异常样例.java" />
       </list>
     </option>
   </component>
@@ -155,14 +162,6 @@
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="常用工具类" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -201,13 +200,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calendar类">
-    <configuration name="正则表达式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="字符串.正则表达式样例" />
+  <component name="RunManager" selected="Application.异常样例">
+    <configuration name="异常样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="异常.异常样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="字符串.*" />
+          <option name="PATTERN" value="异常.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.异常样例" />
         <item itemvalue="Application.Calendar类" />
         <item itemvalue="Application.Random类" />
         <item itemvalue="Application.Math类" />
         <item itemvalue="Application.Integer类" />
-        <item itemvalue="Application.正则表达式样例" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +438,7 @@
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
       <workItem from="1560605873439" duration="13443000" />
-      <workItem from="1560653809922" duration="19356000" />
+      <workItem from="1560653809922" duration="24856000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -658,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560695218479</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="添加Calender类和部分方法说明&#10;遇到以后再补充">
+      <created>1560698875274</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560698875274</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150923000" />
+    <option name="totallyTimeSpent" value="156423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工厂模式整理完毕&#10;添加了config.xml样例文件" />
     <MESSAGE value="单例模式整理完毕 共有7种模式&#10;1.懒汉模式&#10;2.懒汉线程安全&#10;3.饿汉模式&#10;4.静态内部类&#10;5.枚举&#10;6.双重验证&#10;7.饿汉变种" />
     <MESSAGE value="委托模式整理完毕" />
     <MESSAGE value="策略模式整理完毕" />
@@ -788,10 +793,10 @@
     <MESSAGE value="添加Math类和部分方法说明&#10;遇到以后再补充" />
     <MESSAGE value="添加Random类和部分方法说明&#10;遇到以后再补充" />
     <MESSAGE value="添加System类和部分方法说明&#10;遇到以后再补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加System类和部分方法说明&#10;遇到以后再补充" />
+    <MESSAGE value="添加Calender类和部分方法说明&#10;遇到以后再补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Calender类和部分方法说明&#10;遇到以后再补充" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/cglib-2.1.95-sources.jar!/net/sf/cglib/beans/BeanMap.java" />
     <entry file="jar://$PROJECT_DIR$/lib/cglib-2.1.95-sources.jar!/net/sf/cglib/beans/BeanMapEmitter.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,8 +1232,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Calendar类.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        <state relative-caret-position="540">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/异常/异常样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

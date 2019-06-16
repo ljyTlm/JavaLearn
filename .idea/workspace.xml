@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -23,8 +23,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="292">
+              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +111,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-470" />
-    <option name="y" value="450" />
+    <option name="x" value="35" />
+    <option name="y" value="471" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
@@ -434,7 +437,7 @@
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
       <workItem from="1560605873439" duration="13443000" />
-      <workItem from="1560653809922" duration="6287000" />
+      <workItem from="1560653809922" duration="11432000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -611,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560656716850</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="正则表达式整理一半 等回来接着整理">
+      <created>1560660379044</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560660379044</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137854000" />
+    <option name="totallyTimeSpent" value="142999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整理了成员内部类的细节和知识点" />
     <MESSAGE value="深化了关于内部类的知识点&#10;内部类模块整理到此结束" />
     <MESSAGE value="梳理了关于初始化的知识点 和 一点垃圾回收的方面&#10;初始化和清理模块整理到此结束" />
     <MESSAGE value="梳理了多态的思想 多态的出现极大的降低了程序的耦合" />
@@ -741,7 +750,8 @@
     <MESSAGE value="新增归并排序算法" />
     <MESSAGE value="新增选择排序算法" />
     <MESSAGE value="新增二分查找算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增二分查找算法" />
+    <MESSAGE value="正则表达式整理一半 等回来接着整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则表达式整理一半 等回来接着整理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/内部类/匿名内部类样例.java">
@@ -1166,8 +1176,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="292">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

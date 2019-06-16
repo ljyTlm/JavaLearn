@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用工具类/Integer类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/常用工具类/Random类.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
@@ -19,17 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Integer类.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/java/常用算法/二分查找样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/字符串/正则表达式样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用工具类/Integer类.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用工具类/Math类.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用工具类/Random类.java" />
       </list>
     </option>
   </component>
@@ -197,35 +190,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Integer类">
+  <component name="RunManager" selected="Application.Random类">
     <configuration name="二分查找样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用算法.二分查找样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="常用算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="归并排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常用算法.归并排序样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="常用算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="选择排序样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常用算法.选择排序样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
@@ -252,6 +219,32 @@
     </configuration>
     <configuration name="Integer类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用工具类.Integer类" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="常用工具类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Math类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用工具类.Math类" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="常用工具类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Random类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用工具类.Random类" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
@@ -395,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Random类" />
+        <item itemvalue="Application.Math类" />
         <item itemvalue="Application.Integer类" />
         <item itemvalue="Application.正则表达式样例" />
         <item itemvalue="Application.二分查找样例" />
-        <item itemvalue="Application.选择排序样例" />
-        <item itemvalue="Application.归并排序样例" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +428,7 @@
       <workItem from="1560468378359" duration="31106000" />
       <workItem from="1560583579707" duration="1231000" />
       <workItem from="1560605873439" duration="13443000" />
-      <workItem from="1560653809922" duration="11805000" />
+      <workItem from="1560653809922" duration="13605000" />
     </task>
     <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
       <created>1559404511594</created>
@@ -626,11 +619,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560684315274</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="添加Integer类一个知识点&#10;遇到以后再补充">
+      <created>1560684630252</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560684630252</updated>
+    </task>
+    <task id="LOCAL-00029" summary="添加Math类和部分方法说明&#10;遇到以后再补充">
+      <created>1560685548760</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560685548761</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143372000" />
+    <option name="totallyTimeSpent" value="145172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,9 +650,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1958042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1958042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,7 +660,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.37801608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.37801608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -731,8 +737,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="梳理了关于初始化的知识点 和 一点垃圾回收的方面&#10;初始化和清理模块整理到此结束" />
-    <MESSAGE value="梳理了多态的思想 多态的出现极大的降低了程序的耦合" />
     <MESSAGE value="反射整理了一半 明天继续&#10;添加设计模式包" />
     <MESSAGE value="代理模式整理完毕&#10;项目改为maven项目" />
     <MESSAGE value="工厂模式整理完毕&#10;添加了config.xml样例文件" />
@@ -756,36 +760,11 @@
     <MESSAGE value="新增二分查找算法" />
     <MESSAGE value="正则表达式整理一半 等回来接着整理" />
     <MESSAGE value="正则表达式整理完毕&#10;哇感觉超好用的诶 （*——*）" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则表达式整理完毕&#10;哇感觉超好用的诶 （*——*）" />
+    <MESSAGE value="添加Integer类一个知识点&#10;遇到以后再补充" />
+    <MESSAGE value="添加Math类和部分方法说明&#10;遇到以后再补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Math类和部分方法说明&#10;遇到以后再补充" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/内部类/内部类的面试技巧和知识点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/垃圾清理样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/抽象类和接口/抽象类特性.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/内部类/成员内部类样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
@@ -1178,8 +1157,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Integer类.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Random类.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用工具类/Math类.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>

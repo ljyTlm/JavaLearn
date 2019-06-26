@@ -4,7 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
 
-public class 内存输出流样例 {
+public class 内存流样例 {
     public static void main(String[] args) throws UnsupportedEncodingException {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 //        public ByteArrayOutputStream() {

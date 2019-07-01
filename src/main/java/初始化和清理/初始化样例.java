@@ -1,5 +1,7 @@
 package 初始化和清理;
 
+import static java.util.Arrays.sort; //静态导入方法 但是不推荐使用
+
 public class 初始化样例 {
     public static void main(String[] args) {
         String str = "初始化和清理";

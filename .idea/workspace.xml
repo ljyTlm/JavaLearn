@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/单链表样例.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/泛型/泛型样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
@@ -36,14 +35,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/泛型/泛型样例.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="244">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
-                <element signature="e#253#261#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1859#1860#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -91,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/main/java/设计模式/原型模式样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_Timer样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_通信样例.java" />
@@ -133,9 +147,10 @@
         <option value="$PROJECT_DIR$/src/main/java/网络编程/TCP通信样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java" />
-        <option value="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/单链表样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/泛型/泛型样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" />
       </list>
     </option>
   </component>
@@ -202,15 +217,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="泛型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="初始化和清理" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.单链表样例">
+  <component name="RunManager" selected="Application.Collection样例">
     <configuration name="单链表样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用算法.单链表样例" />
       <module name="Java深度研究" />
@@ -473,8 +480,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.单链表样例" />
         <item itemvalue="Application.Collection样例" />
+        <item itemvalue="Application.单链表样例" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TCP通信样例" />
         <item itemvalue="Application.UDP通信样例" />
@@ -519,14 +526,7 @@
       <workItem from="1561654570678" duration="23975000" />
       <workItem from="1561763476062" duration="3074000" />
       <workItem from="1561806799147" duration="20652000" />
-      <workItem from="1561944309582" duration="8249000" />
-    </task>
-    <task id="LOCAL-00001" summary="整理了成员内部类的细节和知识点">
-      <created>1559404511594</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559404511595</updated>
+      <workItem from="1561944309582" duration="9341000" />
     </task>
     <task id="LOCAL-00002" summary="深化了关于内部类的知识点&#10;内部类模块整理到此结束">
       <created>1559448461938</created>
@@ -857,11 +857,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561882845284</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="写了一个简单的单链表&#10;简单整理了泛型">
+      <created>1561963520809</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1561963520809</updated>
+    </task>
+    <task id="LOCAL-00050" summary="添加了 一个知识点&#10;类里面是可以导入静态方法的 只是不推荐使用">
+      <created>1561964289354</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1561964289355</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248365000" />
+    <option name="totallyTimeSpent" value="249457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -876,7 +890,7 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17832167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17832167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -885,7 +899,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
+      <window_info anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -994,8 +1008,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增选择排序算法" />
-    <MESSAGE value="新增二分查找算法" />
     <MESSAGE value="正则表达式整理一半 等回来接着整理" />
     <MESSAGE value="正则表达式整理完毕&#10;哇感觉超好用的诶 （*——*）" />
     <MESSAGE value="添加Integer类一个知识点&#10;遇到以后再补充" />
@@ -1019,24 +1031,15 @@
     <MESSAGE value="简单整理了TCP网络通信" />
     <MESSAGE value="简单整理了jvm 需要补充！！！！" />
     <MESSAGE value="简单整理了collection集合以及具体的三个子类&#10;添加了线程安全样例 接下来会详细整理concurrent包&#10;添加泛型包 一会整理泛型知识点" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单整理了collection集合以及具体的三个子类&#10;添加了线程安全样例 接下来会详细整理concurrent包&#10;添加泛型包 一会整理泛型知识点" />
+    <MESSAGE value="写了一个简单的单链表&#10;简单整理了泛型" />
+    <MESSAGE value="添加了 一个知识点&#10;类里面是可以导入静态方法的 只是不推荐使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了 一个知识点&#10;类里面是可以导入静态方法的 只是不推荐使用" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java/jdk/src.zip!/java/io/ByteArrayOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/序列流样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1428,23 +1431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1961#1962#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/单链表样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
@@ -1498,11 +1484,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/泛型/泛型样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#253#261#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>

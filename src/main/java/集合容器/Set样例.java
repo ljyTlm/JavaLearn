@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.TreeSet;
 
-public class set样例 {
+public class Set样例 {
     public static void main(String[] args) {
 //      1.HashSet
 //        特点：无重复 无索引 无序存储

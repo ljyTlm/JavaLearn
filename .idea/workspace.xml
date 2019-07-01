@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/集合容器/set样例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/集合容器/Map样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/集合容器/set样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/集合容器/Set样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -35,13 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/set样例.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Map样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="217">
+              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -69,6 +67,9 @@
       <find>Compared</find>
       <find>?</find>
       <find>add()</find>
+      <find>keyset()</find>
+      <find>Entry</find>
+      <find>Entry</find>
     </findStrings>
     <replaceStrings>
       <replace>Test_1</replace>
@@ -85,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/设计模式/委托模式样例.java" />
-        <option value="$PROJECT_DIR$/src/main/java/设计模式/策略模式样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/设计模式/原型模式样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/框架/Main.java" />
@@ -136,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/集合容器/set样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/集合容器/Set样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/集合容器/Map样例.java" />
       </list>
     </option>
   </component>
@@ -158,10 +159,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="40" />
-    <option name="width" value="1750" />
-    <option name="height" value="1025" />
+    <option name="x" value="990" />
+    <option name="width" value="939" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -195,6 +195,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.set样例">
+  <component name="RunManager" selected="Application.Map样例">
     <configuration name="单链表样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="常用算法.单链表样例" />
       <module name="Java深度研究" />
@@ -281,12 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCP通信样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="网络编程.TCP通信样例" />
+    <configuration name="Map样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="集合容器.Map样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="网络编程.*" />
+          <option name="PATTERN" value="集合容器.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,11 +473,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Map样例" />
         <item itemvalue="Application.set样例" />
         <item itemvalue="Application.Collection样例" />
         <item itemvalue="Application.单链表样例" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TCP通信样例" />
       </list>
     </recent_temporary>
   </component>
@@ -511,14 +519,7 @@
       <workItem from="1561654570678" duration="23975000" />
       <workItem from="1561763476062" duration="3074000" />
       <workItem from="1561806799147" duration="20652000" />
-      <workItem from="1561944309582" duration="16166000" />
-    </task>
-    <task id="LOCAL-00004" summary="梳理了多态的思想 多态的出现极大的降低了程序的耦合">
-      <created>1559669202090</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1559669202090</updated>
+      <workItem from="1561944309582" duration="22548000" />
     </task>
     <task id="LOCAL-00005" summary="反射整理了一半 明天继续&#10;添加设计模式包">
       <created>1560186372200</created>
@@ -856,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561965341223</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="简单整理了set集合 以后继续补充&#10;set集合 主要有三个实现类&#10;1.HashSet&#10;2.LinkedHashSet&#10;3.TreeSet">
+      <created>1561972582220</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1561972582220</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256282000" />
+    <option name="totallyTimeSpent" value="262664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,6 +881,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17832167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -992,7 +1001,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Integer类一个知识点&#10;遇到以后再补充" />
     <MESSAGE value="添加Math类和部分方法说明&#10;遇到以后再补充" />
     <MESSAGE value="添加Random类和部分方法说明&#10;遇到以后再补充" />
     <MESSAGE value="添加System类和部分方法说明&#10;遇到以后再补充" />
@@ -1017,48 +1025,14 @@
     <MESSAGE value="添加了 一个知识点&#10;类里面是可以导入静态方法的 只是不推荐使用" />
     <MESSAGE value="添加了 一个知识点&#10;方法可以放可变参数" />
     <MESSAGE value="Collection集合先整理到此&#10;以后遇到具体问题在进行补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection集合先整理到此&#10;以后遇到具体问题在进行补充" />
+    <MESSAGE value="简单整理了set集合 以后继续补充&#10;set集合 主要有三个实现类&#10;1.HashSet&#10;2.LinkedHashSet&#10;3.TreeSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单整理了set集合 以后继续补充&#10;set集合 主要有三个实现类&#10;1.HashSet&#10;2.LinkedHashSet&#10;3.TreeSet" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/内存流样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/字符流样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/数据流样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/Properties类样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt.txt" />
     <entry file="jar://D:/java/jdk/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1387,17 +1361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="516" column="5" lean-forward="true" selection-start-line="516" selection-start-column="5" selection-end-line="516" selection-end-column="5" />
-          <folding>
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1417,13 +1380,6 @@
             <element signature="e#5516#5517#0" expanded="true" />
             <element signature="e#5572#5573#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1487,13 +1443,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/set样例.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Set样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="112">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2359">
+          <caret line="374" column="26" lean-forward="true" selection-start-line="374" selection-start-column="26" selection-end-line="374" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/序列流样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/对象操作流样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="397" column="44" selection-start-line="397" selection-start-column="29" selection-end-line="397" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="456" column="7" lean-forward="true" selection-start-line="456" selection-start-column="7" selection-end-line="463" selection-end-column="34" />
+          <folding>
+            <element signature="e#7895#7896#0" expanded="true" />
+            <element signature="e#7926#7927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="284" column="20" selection-start-line="284" selection-start-column="20" selection-end-line="284" selection-end-column="20" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#66531#66532#0" expanded="true" />
+            <element signature="e#66588#66589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/集合容器/Map样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
         </state>
       </provider>
     </entry>

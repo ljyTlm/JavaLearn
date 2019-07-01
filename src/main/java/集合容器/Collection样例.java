@@ -91,7 +91,9 @@ class MyCollection<T extends Comparable<? super T>> implements Collection {
 
             @Override
             public void remove() {
-
+                for(int i = idx-1; i < size-1; i ++) {
+                    arr[i] = arr[i+1];
+                }
             }
         };
         return it;

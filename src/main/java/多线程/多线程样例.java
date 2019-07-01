@@ -59,6 +59,10 @@ public class 多线程样例 {
                 while (true) System.out.println("我是线程1");
             }
         };
+//        线程顺序执行的另外一种方案
+        while (a.isAlive()) {}
+        b.start();
+        while (b.isAlive()) {}
 //      5.礼让线程
         Thread c = new Thread() {
             @Override

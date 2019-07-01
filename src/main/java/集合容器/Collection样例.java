@@ -16,6 +16,12 @@ public class Collection样例 {
 //        在迭代的过程中如果对原集合进行修改和删除操作 此时会抛出异常
 //      4.ArrayList 线程不安全 底层数组实现
         ArrayList<String> list = new ArrayList<>();
+        list.add("sdfa");
+        list.add("sdfa");
+        list.add("sdfa");
+        for (int i = 0; i < list.size(); i ++) {
+            list.remove(i);
+        }
         ListIterator<String> iterator = list.listIterator();
         while (iterator.hasNext()) {
             iterator.next();
@@ -27,7 +33,14 @@ public class Collection样例 {
 //        2.vector空间满了扩容一倍
 //        3.vector分配空间的时候需要连续存储空间 如果数据太多容易分配内存失败
 //        4.只能在尾部进行插入和删除操作，效率低
-//      6.LinkedList 底层链表实现 增删较快 查改较慢 线程不安全
+//      6.LinkedList 底层双向链表实现 增删较快 查改较慢 线程不安全
+        LinkedList<String> linkedList = new LinkedList<>();
+//      7.三种遍历方式
+//        1.迭代器Iterator 要用迭代器提供的删除方式删除
+//        2.for  删除的时候 指针要--
+//        3.增强for foreach语句 增强for循环不能删除
+//
+
     }
 }
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/数据结构详解.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/虚拟机/java探针技术.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -37,26 +36,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-              <folding>
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-              </folding>
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/java探针技术.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -104,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程组.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程池.java" />
         <option value="$PROJECT_DIR$/src/main/java/字符串/String类.java" />
         <option value="$PROJECT_DIR$/src/main/java/字符串/StringBuffer类.java" />
@@ -152,9 +143,10 @@
         <option value="$PROJECT_DIR$/src/main/java/多线程/线程安全样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java" />
-        <option value="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/数据结构详解.java" />
         <option value="$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/设计模式/观察者模式样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" />
       </list>
     </option>
   </component>
@@ -222,16 +214,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="代理模式样例.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="虚拟机" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
@@ -274,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.生成器模式样例">
+  <component name="RunManager" selected="Application.观察者模式样例">
     <configuration name="生成器模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.生成器模式样例" />
       <module name="Java深度研究" />
@@ -301,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collection样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="集合容器.Collection样例" />
+    <configuration name="观察者模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.观察者模式样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="集合容器.*" />
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,11 +494,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.观察者模式样例" />
         <item itemvalue="Application.生成器模式样例" />
         <item itemvalue="Application.数据结构详解" />
         <item itemvalue="Application.Map样例" />
         <item itemvalue="Application.set样例" />
-        <item itemvalue="Application.Collection样例" />
       </list>
     </recent_temporary>
   </component>
@@ -558,21 +541,7 @@
       <workItem from="1561763476062" duration="3074000" />
       <workItem from="1561806799147" duration="20652000" />
       <workItem from="1561944309582" duration="32817000" />
-      <workItem from="1562049149105" duration="9529000" />
-    </task>
-    <task id="LOCAL-00009" summary="委托模式整理完毕">
-      <created>1560359646907</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1560359646907</updated>
-    </task>
-    <task id="LOCAL-00010" summary="策略模式整理完毕">
-      <created>1560361417754</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361417754</updated>
+      <workItem from="1562049149105" duration="16717000" />
     </task>
     <task id="LOCAL-00011" summary="原型模式整理完毕&#10;设计模式整理到此结束">
       <created>1560396519842</created>
@@ -903,11 +872,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561998965582</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="新增了一个生成器模式&#10;新增了数据机构里面概念计算之类的知识点&#10;新增了jvm详细整理区">
+      <created>1562073543396</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1562073543398</updated>
+    </task>
+    <task id="LOCAL-00059" summary="新增了一个观察者模式~">
+      <created>1562078131181</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1562078131181</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282462000" />
+    <option name="totallyTimeSpent" value="289650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,7 +905,7 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18041958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18041958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -931,7 +914,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
+      <window_info anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1040,8 +1023,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加了单源最短路径模板" />
-    <MESSAGE value="初步整理了IO流" />
     <MESSAGE value="新学的装饰模式 &#10;又是一种新的模式 开心~" />
     <MESSAGE value="除了 字节流 还有字符流 专门用于处理多字节的读入和写入" />
     <MESSAGE value="非主流之---序列流" />
@@ -1065,57 +1046,15 @@
     <MESSAGE value="整理了一个集合操作的工具类&#10;Collections类  注意性能不咋地" />
     <MESSAGE value="解释了泛型中的边界问题" />
     <MESSAGE value="添加了部分线程安全知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了部分线程安全知识" />
+    <MESSAGE value="新增了一个生成器模式&#10;新增了数据机构里面概念计算之类的知识点&#10;新增了jvm详细整理区" />
+    <MESSAGE value="新增了一个观察者模式~" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了一个观察者模式~" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding>
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/IndexOutOfBoundsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="604" column="36" lean-forward="true" selection-start-line="604" selection-start-column="36" selection-end-line="604" selection-end-column="36" />
-          <folding>
-            <element signature="e#9883#9884#0" expanded="true" />
-            <element signature="e#9921#9922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1503,13 +1442,6 @@
         <state relative-caret-position="-8505" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1524,13 +1456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/代理模式样例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1540,8 +1465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="1486">
+          <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding>
             <element signature="e#678#679#0" expanded="true" />
             <element signature="e#704#705#0" expanded="true" />
@@ -1558,6 +1483,55 @@
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/观察者模式样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/内部类/成员内部类样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/内部类/内部类的面试技巧和知识点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/java探针技术.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>

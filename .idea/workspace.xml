@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/常用算法/数据结构详解.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/多线程/线程安全样例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/多线程/线程安全样例.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -34,12 +35,28 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/多线程/多线程样例.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            <state relative-caret-position="378">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/框架/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_Timer样例.java" />
-        <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_通信样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程组.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程_线程池.java" />
         <option value="$PROJECT_DIR$/src/main/java/字符串/String类.java" />
@@ -127,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/main/java/网络编程/UDP通信样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/网络编程/TCP通信样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/常用算法/单链表样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/集合容器/Collection样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/初始化和清理/初始化样例.java" />
@@ -138,6 +151,10 @@
         <option value="$PROJECT_DIR$/src/main/java/泛型/泛型样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/线程安全样例.java" />
         <option value="$PROJECT_DIR$/src/main/java/多线程/多线程样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java" />
+        <option value="$PROJECT_DIR$/src/main/java/常用算法/数据结构详解.java" />
+        <option value="$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java" />
       </list>
     </option>
   </component>
@@ -161,8 +178,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="990" />
-    <option name="width" value="939" />
-    <option name="height" value="1089" />
+    <option name="width" value="940" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -172,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +222,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="多线程" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java深度研究" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="代理模式样例.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java深度研究" type="b2602c69:ProjectViewProjectNode" />
@@ -213,8 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,13 +274,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.线程安全样例">
-    <configuration name="单链表样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常用算法.单链表样例" />
+  <component name="RunManager" selected="Application.生成器模式样例">
+    <configuration name="生成器模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.生成器模式样例" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常用算法.*" />
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="线程安全样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.线程安全样例" />
+    <configuration name="数据结构详解" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常用算法.数据结构详解" />
       <module name="Java深度研究" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="多线程.*" />
+          <option name="PATTERN" value="常用算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,6 +320,84 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="集合容器.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="单例模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="委托模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.委托模式样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="代理模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.代理模式样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="反射样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="反射.反射样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="反射.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="样例演示" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="继承和多态.样例演示" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="继承和多态.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="线程安全样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.线程安全样例" />
+      <module name="Java深度研究" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,71 +496,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="单例模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="委托模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.委托模式样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="代理模式样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.代理模式样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="反射样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="反射.反射样例" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="反射.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="样例演示" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="继承和多态.样例演示" />
-      <module name="Java深度研究" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="继承和多态.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="set样例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="集合容器.set样例" />
       <module name="Java深度研究" />
@@ -472,11 +511,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.线程安全样例" />
+        <item itemvalue="Application.生成器模式样例" />
+        <item itemvalue="Application.数据结构详解" />
         <item itemvalue="Application.Map样例" />
         <item itemvalue="Application.set样例" />
         <item itemvalue="Application.Collection样例" />
-        <item itemvalue="Application.单链表样例" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +557,8 @@
       <workItem from="1561654570678" duration="23975000" />
       <workItem from="1561763476062" duration="3074000" />
       <workItem from="1561806799147" duration="20652000" />
-      <workItem from="1561944309582" duration="31997000" />
-    </task>
-    <task id="LOCAL-00008" summary="单例模式整理完毕 共有7种模式&#10;1.懒汉模式&#10;2.懒汉线程安全&#10;3.饿汉模式&#10;4.静态内部类&#10;5.枚举&#10;6.双重验证&#10;7.饿汉变种">
-      <created>1560358266608</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1560358266608</updated>
+      <workItem from="1561944309582" duration="32817000" />
+      <workItem from="1562049149105" duration="9529000" />
     </task>
     <task id="LOCAL-00009" summary="委托模式整理完毕">
       <created>1560359646907</created>
@@ -863,11 +896,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561991591270</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="添加了部分线程安全知识">
+      <created>1561998965582</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1561998965582</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272113000" />
+    <option name="totallyTimeSpent" value="282462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,8 +920,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17832167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18041958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -890,7 +931,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
+      <window_info active="true" anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -999,7 +1040,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Calender类和部分方法说明&#10;遇到以后再补充" />
     <MESSAGE value="添加了单源最短路径模板" />
     <MESSAGE value="初步整理了IO流" />
     <MESSAGE value="新学的装饰模式 &#10;又是一种新的模式 开心~" />
@@ -1024,76 +1064,14 @@
     <MESSAGE value="简单整理了map集合" />
     <MESSAGE value="整理了一个集合操作的工具类&#10;Collections类  注意性能不咋地" />
     <MESSAGE value="解释了泛型中的边界问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解释了泛型中的边界问题" />
+    <MESSAGE value="添加了部分线程安全知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了部分线程安全知识" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/反射/反射样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/输入输出流/随机访问流样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="730" column="19" selection-start-line="730" selection-start-column="19" selection-end-line="730" selection-end-column="19" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="788" column="36" selection-start-line="788" selection-start-column="36" selection-end-line="788" selection-end-column="36" />
-          <folding>
-            <element signature="e#10280#10281#0" expanded="true" />
-            <element signature="e#10314#10315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1515,8 +1493,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/多线程/多线程样例.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="-891">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/反编译样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/选择排序样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/常用算法/数据结构详解.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/代理模式样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/生成器模式样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

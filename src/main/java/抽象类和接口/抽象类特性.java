@@ -36,7 +36,14 @@ abstract class People extends Biology{  //知识点：抽象类允许继承抽�
 }
 abstract class Biology implements Arams{ //知识点1：抽象类可以实现接口
     abstract void eat();
+    Biology(){
+    }
 }
 interface Arams{
     void cut();
 }
+/*
+    1.在接口中 8版本后  default 和static 修饰的方法可以有方法体
+    2.抽象类中 是可以有构造函数的！！！！！
+
+ */

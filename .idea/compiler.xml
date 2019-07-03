@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java深度研究" target="7" />
+      <module name="Java深度研究" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

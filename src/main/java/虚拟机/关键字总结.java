@@ -1,8 +1,9 @@
 package 虚拟机;
 
 public class 关键字总结 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+         int v = 1;
     }
 }
 
@@ -17,6 +18,16 @@ public class 关键字总结 {
             可以进行直接初始化，不然只能在所有的构造方法中初始化
             注意：这个变量不能重新赋值，但是可以修改变量
         （4）final不能修饰接口和抽象类
-
+    2.volatile
+        (1)禁止指令重排 jvm虚拟机在执行代码时 会对执行指令进行优化
+           加入这个关键字 会在操作这个关键字之前和之后加入四个屏障
+           写：StoreStore 写后：StoreLoad
+           读：LoadLoad   读后：LoadStore
+           没有任何的安全感 属于悲观锁
+        (2)保证数据的可见性 因为jvm在执行的过程中加了上述指令
+           所以每一次的数据都是直接作用在内存中读和取 缓冲区失效
+        (3)此关键字可以看为一种轻量级的sync 实现了锁的 可见性
+           但是没有实现锁的 ！！！ 原子性 ！！！！也就是不会引起线程阻塞
+           存在安全问题 多线程的计数器功能无法实现 ！！！
 
  */

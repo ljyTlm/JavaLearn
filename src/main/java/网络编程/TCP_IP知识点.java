@@ -13,7 +13,7 @@ public class TCP_IP知识点 {
         1.应用层
             HTTP、HTTPS、FTP、SSH
             （1）HTTP 超文本传输协议
-            （2）HTTPS 安全超文本传输协议 本质是 在http和tcp之间加了一层ssl加密传输协议
+            （2）HTTPS 安全超文本传输协议 本质是 在http和tcp之间加了一层ssl加密传输协议 和 tls协议！！！
             （3）FTP 文件传输协议
             （4）SSH 安全外壳协议 两种链接方式 其中ssh公钥和密钥
         2.传输层

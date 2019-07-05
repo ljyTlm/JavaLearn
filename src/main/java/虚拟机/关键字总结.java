@@ -3,22 +3,8 @@ package 虚拟机;
 public class 关键字总结 {
 
 
-    public static void main(String[] args) throws Exception{
-        final int [] a = {1};
-        Thread thread = new Thread() {
-            @Override
-            public void run() {
-                synchronized (Object.class) {
-                    a[0] = 2;
-                    String b = null;
-                    b.toString();
-                }
-            }
-        };
-        thread.start();
-        thread.join();
-        Thread.sleep(2000);
-        System.out.println(a[0]);
+    public static void main(String[] args) {
+
     }
 
 }
@@ -51,5 +37,10 @@ public class 关键字总结 {
            进入等锁池
         (3)效率低 除非同步代码块执行不然是不会释放锁的
         (4)无法知道是否成功获取到锁
+    4.throw
+        (1)抛出指定的异常类 异常类必须实现Throwable类
+        (2)抛出的异常 必须要有接受这 两种处理方式 要么try catch throws
+    5.throws
+        (1)作用只有一个 在类名后面声明 这个类可能会抛出的异常 只是声明！！！
 
  */

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="添加了synchronized关键字&#10;1.可重入性&#10;2.不可中断性">
+    <list default="true" id="9b75ba3a-1a4a-4a67-be7a-ee7df41d2bf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/虚拟机/关键字总结.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/虚拟机/关键字总结.java" afterDir="false" />
     </list>
     <list id="70585c50-dde1-4af3-8795-22ba430b760f" name="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;" comment="Revert &quot;此次实际演示了抽象类的概念作用以及特性&quot;&#10;&#10;This reverts commit c5b32646" />
     <list id="3156a59f-43b9-41ea-bb54-b08d87367d62" name="抽象类" comment="此次实际演示了抽象类的概念作用以及特性" />
@@ -37,12 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/关键字总结.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-              <folding>
-                <element signature="e#136#313#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1107">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -163,10 +158,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="925" />
+    <option name="x" value="-15" />
     <option name="y" value="40" />
-    <option name="width" value="940" />
-    <option name="height" value="1090" />
+    <option name="width" value="1750" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -580,21 +575,7 @@
       <workItem from="1562174481788" duration="468000" />
       <workItem from="1562203258800" duration="13683000" />
       <workItem from="1562291746461" duration="1134000" />
-      <workItem from="1562333214308" duration="3477000" />
-    </task>
-    <task id="LOCAL-00018" summary="整理了字符串中String类&#10;顺便写了一下kmp算法 还行没忘 哈哈">
-      <created>1560617776808</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1560617776808</updated>
-    </task>
-    <task id="LOCAL-00019" summary="整理了字符串中StringBuffer和StringBuilderlei">
-      <created>1560622052735</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1560622052735</updated>
+      <workItem from="1562333214308" duration="6534000" />
     </task>
     <task id="LOCAL-00020" summary="添加常用算法模块&#10;新增冒泡排序算法">
       <created>1560622105350</created>
@@ -925,11 +906,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562258882706</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="添加了synchronized关键字&#10;1.可重入性&#10;2.不可中断性/原子性&#10;缺点效率低！！！&#10;无法知道是否成功获取到锁">
+      <created>1562338236286</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1562338236288</updated>
+    </task>
+    <task id="LOCAL-00068" summary="添加了 throw和throws关键字&#10;抛出异常 声明异常">
+      <created>1562338830529</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1562338830529</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324217000" />
+    <option name="totallyTimeSpent" value="327274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,9 +937,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19650349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19650349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -953,13 +947,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" visible="true" weight="0.35254693" />
+      <window_info anchor="bottom" x="17" y="320" width="1342" height="243" id="Run" maximized="true" order="2" sideWeight="0.49720278" weight="0.35254693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3458445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986014" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986014" weight="0.9597855" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4979021" weight="0.9396783" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020979" side_tool="true" weight="0.30294907" />
@@ -1062,8 +1056,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="非主流之---打印流" />
-    <MESSAGE value="非主流之---标准流" />
     <MESSAGE value="非主流之---Properties类" />
     <MESSAGE value="简单整理了UDP网络通信" />
     <MESSAGE value="简单整理了TCP网络通信" />
@@ -1087,7 +1079,9 @@
     <MESSAGE value="添加了一个知识点：&#10;当子类变量与父类变量同名时会隐藏或者覆盖掉父类变量" />
     <MESSAGE value="让三个线程顺序执行的 方法 没有整理完成&#10;整理了 volatile 关键字&#10;读音： wo lun tai ou&#10;主要是两个功能&#10;1.禁止指令重排&#10;2.保证数据的可见性" />
     <MESSAGE value="https 使用的是ssl和tls加密协议" />
-    <option name="LAST_COMMIT_MESSAGE" value="https 使用的是ssl和tls加密协议" />
+    <MESSAGE value="添加了synchronized关键字&#10;1.可重入性&#10;2.不可中断性/原子性&#10;缺点效率低！！！&#10;无法知道是否成功获取到锁" />
+    <MESSAGE value="添加了 throw和throws关键字&#10;抛出异常 声明异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了 throw和throws关键字&#10;抛出异常 声明异常" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1490,13 +1484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1523,14 +1510,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/jvm样例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/虚拟机/关键字总结.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="e#136#313#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1107">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -52,3 +52,19 @@ public class StringBuffer类 {
         b7 += "weew";
     }
 }
+/*
+    1.String、StringBuilder、StringBuffer的区别？
+        String是不可变的 StringBuilder和StringBuffer是可变的
+        StringBuilder是线程不安全的 执行效率高
+        StringBuffer是线程安全的 执行效率低
+    2.StringBuffer为什么是线程安全的？
+        通过查看源码可以看到很多方法都加了synchronized同步锁
+    3.可以写段代码演示StringBuilder的线程不安全嘛？
+        直接创建三个线程
+        1.追加11
+        2.追加22
+        3.输出内容
+
+
+
+ */

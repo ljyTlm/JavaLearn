@@ -116,5 +116,7 @@ public class String类 {
         System.out.println(s3 == s4);
         正确答案6个对象 因为像s1 s2这类的引用无法预先得知
         所以执行的时候会复制s1 s2 s3是新生成的 结果为false
+     7.String类能被继承嘛？
+        不能 String类的修饰符是 final
 
  */

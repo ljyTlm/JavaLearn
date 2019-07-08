@@ -48,6 +48,7 @@ public class Main {
             enhancer.setSuperclass(cla);
             enhancer.setCallback(new TaransactionInterceptor());
             Object obj = enhancer.create();
+            System.out.println(cla == obj.getClass());
 //            Class cla = obj.getClass();
 
 //          -----------------------------------------------------

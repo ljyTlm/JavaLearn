@@ -92,3 +92,29 @@ public class String类 {
             return next;
         }
 }
+/*
+    1.String是什么基础数据嘛？ 他在那个包下？
+        String不是基础数据类型，他在java.lang包下
+    2.讲讲String的创建方式
+        String有两种创建方式 一种是new 一种引号 推荐使用引号
+    3.String不可变有什么好处？
+        （1）在多线程环境下是安全的
+        （2）在不可变的基础上构建 字符串池节约空间防止相同的字符串频繁的大量创建
+    4.什么是字符串池？
+        在java内存堆中有一个空间用来存储字符串
+        需要注意的是new出来的字符串不仅会在池中创建
+        还会在堆内存中创建 创建两次
+    5.为什么使用HashMap的时候推荐使用string做key
+        因为字符串的hashcode执行一次之后就会被缓存
+        不会再重新创建
+    6.下面这段代码创建了几个对象？
+        String s1 = "Java";
+        String s2 = "从0到1";
+        String s3 = s1 + s2;
+        String s4 = "Java从0到1";
+
+        System.out.println(s3 == s4);
+        正确答案6个对象 因为像s1 s2这类的引用无法预先得知
+        所以执行的时候会复制s1 s2 s3是新生成的 结果为false
+
+ */

@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class 多线程_Timer样例 {
+public class 定时器_Timer {
     public static void main(String[] args) throws InterruptedException {
 //        Timer 计时器类
         Timer timer = new Timer();

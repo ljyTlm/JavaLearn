@@ -1,6 +1,6 @@
 package 多线程;
 
-public class 多线程_全局变量池 {
+public class 共享变量_ThreadLocal {
     public static void main(String[] args) throws InterruptedException {
         final ThreadLocal map = new ThreadLocal();
         Thread thread1 = new Thread() {

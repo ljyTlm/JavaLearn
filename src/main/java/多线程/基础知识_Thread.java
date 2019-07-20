@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Hashtable;
 import java.util.Vector;
 
-public class 多线程样例 {
+public class 基础知识_Thread {
     public static void main(String[] args) throws InterruptedException {
 //        并行：多个cpu同时执行多个任务
 //        并发：一个cpu轮流执行多个任务

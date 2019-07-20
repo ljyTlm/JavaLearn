@@ -2,9 +2,11 @@ package 集合容器;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayList详解 {
     public static void main(String[] args) {
+
         ArrayList list = new ArrayList();
         list.clone();
     }

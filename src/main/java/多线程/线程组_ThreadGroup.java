@@ -1,6 +1,6 @@
 package 多线程;
 
-public class 多线程_线程组 {
+public class 线程组_ThreadGroup {
     public static void main(String[] args) {
 //        java允许程序直接对线程组进行操作
 //        java提供了ThreadGroup 默认情况下所有线程都属于主线程组

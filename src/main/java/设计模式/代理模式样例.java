@@ -23,16 +23,16 @@ public class 代理模式样例 {
             proxy.eat();
 //          为啥叫静态代理呢？ 因为代理类你必须预先写出来实现接口 然后在编译
 //        3.jdk动态代理
-            FoodHandler handler = new FoodHandler(man_1);
+            FoodHandler handler = new FoodHandler(man_1, 1);
             Person person_1 = (Person) Proxy.newProxyInstance(man_1.getClass().getClassLoader(), man_1.getClass().getInterfaces(), handler);
             person_1.eat();
+            person_1.run();
 //        4.cglib动态代理
             Enhancer enhancer = new Enhancer();
             enhancer.setSuperclass(Woman.class);
             enhancer.setCallback(new WeightInterceptor());
             Woman proxy_2 = (Woman) enhancer.create();
             proxy_2.eat();
-            proxy_2.run();
 //        5.两种动态代理的差异
 //          jdk动态代理 只能代理有接口继承的类 没有接口就束手无策了
 //          cglib动态代理 就可以直接对类进行操作 而且性能优秀（asm的包 字节码文件操作工具 短小精悍）
@@ -42,11 +42,15 @@ public class 代理模式样例 {
 }
 interface Person {
     void eat();
+    void run();
 }
 class Man implements Person {
 
     public void eat() {
         System.out.println("我想吃米饭！");
+    }
+    public void run() {
+        System.out.println("我正在走路！");
     }
 }
 class FoodProxy implements Person {
@@ -64,12 +68,17 @@ class FoodProxy implements Person {
         System.out.println("------------------------");
         System.out.println("服务员来两碗米饭！！！！！");
     }
+
+    @Override
+    public void run() {
+
+    }
 }
 class FoodHandler implements InvocationHandler {
 
     Object obj;
 
-    FoodHandler(Object obj){
+    FoodHandler(Object obj, int a){
         this.obj = obj;
     }
 

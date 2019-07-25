@@ -1,4 +1,4 @@
-package 集合容器;
+package 集合容器.实现类底层解析;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

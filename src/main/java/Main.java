@@ -1,10 +1,18 @@
+import java.lang.ref.WeakReference;
 
 public class Main {
 
     volatile int a;
 
     public static void main(String[] args) {
-        System.out.println(new Main().a);
+        new Thread() {
+            @Override
+            public void run() {
+                while (true) {
+                    WeakReference reference = new WeakReference(new Object());
+                }
+            }
+        }.start();
     }
 }
 

@@ -1,6 +1,6 @@
 package 虚拟机;
 
-public class 自定义类加载器 {
+public class 双亲委派模型_ClassLoader {
     public static void main(String[] args) throws ClassNotFoundException {
         MyClassLoader classLoader = new MyClassLoader();
         Class<?> ds = classLoader.loadClass("ds");

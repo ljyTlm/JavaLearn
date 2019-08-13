@@ -4,16 +4,11 @@ import java.util.concurrent.CountDownLatch;
 
 public class 计数器_CountDownLatch {
     public static void main(String[] args) {
-        CountDownLatch count = new CountDownLatch(5);
-        for(int i = 0; i < 5; i ++) {
+        int size = 100;
+        CountDownLatch count = new CountDownLatch(size);
+        for(int i = 0; i < size; i ++) {
             new Thread(new MyRunnable_1(count)).start();
         }
-        try {
-            count.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("我叫李金玉");
     }
 }
 class MyRunnable_1 implements Runnable {
@@ -27,12 +22,14 @@ class MyRunnable_1 implements Runnable {
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName()+"正在准备");
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         count.countDown();
+        try {
+            count.await();
+        } catch (InterruptedException e) {
+
+        }
+        System.out.println(Thread.currentThread().getName()+"我正在运行");
+
     }
 }
 

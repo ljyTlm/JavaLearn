@@ -1,26 +1,76 @@
 package 多线程;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class 重入锁_ReentrantLock {
     public static void main(String[] args) {
-        for(int i = 0; i < 10; i ++) {
-            TestThread testThread = new TestThread();
-            testThread.start();
+
+        final Util util = new Util();
+        new Thread() {
+            @Override
+            public void run() {
+                while (true) {
+                    util.printA();
+                }
+            }
+        }.start();
+        new Thread() {
+            @Override
+            public void run() {
+                while (true) {
+                    util.printB();
+                }
+            }
+        }.start();
+        new Thread() {
+            @Override
+            public void run() {
+                while (true) {
+                    util.printC();
+                }
+            }
+        }.start();
+    }
+    static class Util {
+        ReentrantLock reentrantLock = new ReentrantLock();
+        Condition conditionA = reentrantLock.newCondition();
+        Condition conditionB = reentrantLock.newCondition();
+        Condition conditionC = reentrantLock.newCondition();
+
+        public void printA() {
+            reentrantLock.lock();
+            System.out.println("A");
+            conditionB.signal();
+            try {
+                conditionA.await();
+            }catch (Exception e) {}
+
+            reentrantLock.unlock();
         }
 
-    }
-}
-class TestThread extends Thread {
-    @Override
-    public void run() {
-        ReentrantLock reentrantLock = new ReentrantLock();
-        reentrantLock.lock();
-        for (int i = 0; i < 5; i ++) {
-            System.out.println(getName());
+        public void printB() {
+            reentrantLock.lock();
+            System.out.println("B");
+            conditionC.signal();
+            try {
+                conditionB.await();
+            }catch (Exception e) {}
+
+            reentrantLock.unlock();
         }
-        reentrantLock.unlock();
+
+        public void printC() {
+            reentrantLock.lock();
+            System.out.println("C");
+            conditionA.signal();
+            try {
+                conditionC.await();
+            }catch (Exception e) {}
+
+            reentrantLock.unlock();
+        }
     }
 }
 /**

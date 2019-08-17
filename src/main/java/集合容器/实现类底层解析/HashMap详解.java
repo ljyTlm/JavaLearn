@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 public class HashMap详解 {
     public static void main(String[] args) {
-
+        HashMap<Integer, String> hashMap = new HashMap<>();
+        hashMap.put(1, "");
     }
 }
+

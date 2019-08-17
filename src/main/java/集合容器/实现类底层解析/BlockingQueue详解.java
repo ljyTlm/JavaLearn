@@ -2,11 +2,15 @@ package 集合容器.实现类底层解析;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class BlockingQueue详解 {
     public static void main(String[] args) {
         BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
         queue.add(1);
+        ReentrantLock lock = new ReentrantLock();
+        Condition condition = lock.newCondition();
     }
 }
 /**
